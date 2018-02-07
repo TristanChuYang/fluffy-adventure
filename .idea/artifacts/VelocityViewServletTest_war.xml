@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="VelocityViewServletTest:war">
+    <output-path>$PROJECT_DIR$/VelocityViewServletTest/target</output-path>
+    <root id="archive" name="velocityviewservletest.war">
+      <element id="artifact" artifact-name="VelocityViewServletTest:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<tools>
+    <toolbox scope="application">
+        <tool key="tool" class="com.tristan.velocitytool.Tools"/>
+    </toolbox>
+</tools>

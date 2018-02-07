@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="VelocityTest:war exploded">
+    <output-path>$PROJECT_DIR$/VelocityTest/target/velocitytest</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="VelocityTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.velocity:velocity-engine-core:2.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/VelocityTest/target/velocitytest/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="VelocityTest/web/Web" />
+    </root>
+  </artifact>
+</component>

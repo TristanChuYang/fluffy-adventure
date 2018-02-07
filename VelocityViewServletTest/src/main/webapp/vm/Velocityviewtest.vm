@@ -1,0 +1,13 @@
+<html>
+<body>
+<p>$key</p>
+    #foreach($elem in $elements)
+    <li>$elem</li>
+    #end
+<p>$tool.testTool()</p>
+<div>
+    #include("def.vm")
+</div>
+</body>
+</html>
+

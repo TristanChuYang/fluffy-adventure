@@ -42,7 +42,6 @@ public class TestDate {
         System.out.println("Duration in days: " + duration.toDays());
         System.out.println("Duration in hours: " + duration.toHours());
 
-
     }
 
 }

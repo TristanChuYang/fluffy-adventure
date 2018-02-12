@@ -11,10 +11,6 @@
     <packaging>pom</packaging>
     <name>springmvc Maven Webapp</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>../TestJMQ</module>
-        <module>../JMQTest</module>
-    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>3.1.2.RELEASE</spring.version>

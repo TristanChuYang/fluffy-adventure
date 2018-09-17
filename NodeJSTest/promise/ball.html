@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Promise Animation</title>
+    <!-- 定义3个球，分别是3个颜色 -->
     <style>
         .ball {
             width: 40px;
@@ -30,6 +31,7 @@
     var ball2 = document.querySelector('.ball2')
     var ball3 = document.querySelector('.ball3')
 
+    <!-- 小球运动动画 -->
     function animate(ball, distance, cb) {
         setTimeout(function () {
             var marginLeft = parseInt(ball.style.marginLeft, 10)
@@ -43,21 +45,19 @@
                 }
                 // 注意这种写法如果不用marginLeft + 'px'，则需要在html声明时使用<!DOCTYPE>
                 ball.style.marginLeft = marginLeft
-                //alert(ball.style.marginLeft)
                 animate(ball ,distance, cb)
             }
+        //13是间隔最合适的时间
         }, 13)
-
     }
 
-
-    animate(ball1, 100, function () {
+    animate(ball1, 100, function () {//循环调用animate
         animate(ball2, 200, function () {
             animate(ball3, 300, function () {
                 animate(ball3, 150, function () {
                     animate(ball2, 150, function () {
                         animate(ball1, 150, function () {
-                            //
+
                         })
                     })
                 })
